@@ -1,0 +1,314 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+                                    /* Nav Bar */
+.nav{
+    background-color:pink;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+                                    /*  Logo  */
+.lo{
+    height: 35px;
+    width: 250px;
+    margin: 11px;
+}
+                                    /* List in Nav bar */
+.li{
+    float: right;
+    margin-top: 13px;
+}
+                                    /* Anchor tags in list */
+.li a{
+    margin-left: 40px;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;   
+}
+                                    /*  only menu options in list */
+.li1:hover{
+    border-bottom: 3px solid rgb(243, 0, 73);
+    border-right:  3px solid rgb(243, 0, 73);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+                                    /* Log in button */
+.in{
+    background-color: rgb(243, 0, 73);
+    border: 5px solid rgb(243, 0, 73);
+    border-radius: 9px;
+}
+.in:hover{
+    font-size: 22px;
+    color: white;
+    transition: 0.5s;
+}
+                                    /* Search box in Nav bar */
+.se{
+    border: 1px solid pink;
+    border-radius: 80px;
+    height: 30px;
+    width: 325px;
+    margin-left: 300px;  
+    outline: none;
+    padding-left: 20px;
+    font-size:17px;
+}
+.se:hover{
+    border: 3px solid rgb(243, 0, 73);
+    transition: 0.5s;
+}
+                                    /* Scrolling images */
+#Himg img{
+    width:100%;
+    height: 400px;
+    margin-top: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+                                    /* Movie content images */
+img{
+    height: 300px;
+    width: 230px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+                                    /* Categroey of movie content  */
+.heading{
+    display: flex;
+}
+.a,.d,.g,.j,.m{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    margin-left:15px ;
+}
+.b,.e,.h,.k,.n{
+    position: absolute;
+    font-size: 20px;
+    height: 335px;
+    background-color: black;
+    border-radius: 20px;
+}
+.c,.f,.i,.l,.o{
+    margin-top: 305px;
+    margin-left: 20px;
+    color: aqua;
+    position: absolute;
+}
+.a1,.d1,.g1,.j1,.m1{
+    position: relative;
+    width: 250px;
+    height: 340px;
+    margin-left:15px ;
+}
+.b1,.e1,.h1,.k1,.n1{
+    position: absolute;
+    font-size: 20px;
+    height: 335px;
+    background-color: black;
+    border-radius: 20px;
+}
+.c1,.f1,.i1,.l1,.o1{
+    margin-top: 305px;
+    margin-left: 20px;
+    color: aqua;
+    position: absolute;
+}
+.a2,.d2,.g2,.j2,.m2{
+    position: relative;
+    width: 250px;
+    height: 340px;
+    margin-left:15px ;
+}
+.b2,.e2,.h2,.k2,.n2{
+    position: absolute;
+    font-size: 20px;
+    height: 335px;
+    background-color: black;
+    border-radius: 20px;
+}
+.c2,.f2,.i2,.l2,.o2{
+    margin-top: 305px;
+    margin-left: 20px;
+    color: aqua;
+    position: absolute;
+}
+.a3,.d3,.g3,.j3,.m3{
+    position: relative;
+    width: 250px;
+    height: 340px;
+    margin-left:15px ;
+}
+.b3,.e3,.h3,.k3,.n3{
+    position: absolute;
+    font-size: 20px;
+    height: 335px;
+    background-color: black;
+    border-radius: 20px;
+}
+.c3,.f3,.i3,.l3,.o3{
+    margin-top: 305px;
+    margin-left: 20px;
+    color: aqua;
+    position: absolute;
+}
+                                        /* footer */
+.last{
+    background-color: grey;
+    margin-top: 80px;
+    width: 100%;
+}
+.lastcontent{
+    display: flex;
+    justify-content: space-around;
+}
+.lastcontent img{
+    height: 100px;
+    width: 150px;
+}
+.lastcontent img:hover{
+    filter: drop-shadow(1px 1px 10px white);
+}
+                                        /* Footer Logo image */
+.footermarquee{
+    width:fit-content;
+    margin-top: 30px;
+    display: flex;
+}
+.footerlogo{
+    height: 110px;
+    width: 203px;
+    margin-left: -15px;
+    background-color: rgb(209, 214, 214);
+    border-radius: 50%;
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange {
+    0%{background-color: rgb(126, 255, 255);  }
+    25%{background-color: rgb(255, 125, 125); }
+    50%{background-color: rgb(25, 128, 25);}
+    75%{background-color: rgb(67, 67, 252);}
+    100%{background-color: rgb(233, 221, 221);}
+}
+.light1{
+    height: 50px;
+    width: 50px;
+    margin-top: 94px;
+    transform: scale(-1);
+}
+.light2{
+    height: 50px;
+    width: 50px;
+    margin-top: 94px;
+    transform: scaleY(-1);
+}
+.leftshadow{
+    width: 0px;
+    height: 0px;
+    margin-left: -40px;
+    border-top: 25px solid transparent;
+    border-right: 570px solid rgb(209, 214, 214);
+    border-bottom: 25px solid transparent;
+    animation-name: shadow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.rightshadow{
+    width: 0px;
+    height: 0px;
+    margin-right: -40px;
+    margin-left: -20px;
+    border-top: 25px solid transparent;
+    border-right: 570px solid rgb(209, 214, 214);
+    border-bottom: 25px solid transparent;
+    animation-name: shadow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes shadow {
+    0%{border-right: 570px solid rgb(126, 255, 255);}
+    25%{border-right: 570px solid rgb(255, 125, 125);}
+    50%{border-right: 570px solid rgb(25, 128, 25);}
+    75%{border-right: 570px solid rgb(67, 67, 252);}
+    100%{border-right: 570px solid rgb(233, 221, 221);}
+}
+ 
+                                        /* footer icons */
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    margin-left: 40%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 40px;
+  }
+                                        /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: 1s;
+  }
+                                         /* instagram*/
+  .containerOne:hover {
+    background-color: #000000;
+    transition-duration: 0.3s;
+  }
+                                        /* twitter*/
+  .containerTwo:hover {
+    background-color: #000000;
+    transition-duration: 0.3s;
+  }
+                                        /* linkdin*/
+  .containerThree:hover {
+    background-color: #000000;
+    transition-duration: 0.3s;
+  }
+                                        /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #000000;
+    transition-duration: 0.3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

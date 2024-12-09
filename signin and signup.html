@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="signin and signup.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in/up</title>
+</head>
+<body>
+    <div class="overall">
+
+                                <!-- Sign in Form -->
+
+         <div class="Signin" id="Signin">
+            <form action="" style="margin-top:110px ;"><center>
+                <h1>SIGN IN</h1>
+                <input type="email" placeholder="Enter email"><br>
+                <input type="password" placeholder="password"><br>
+                <button class="Signin-button"><a href="Home Page.html">Submit</a></button><br> <br><br>
+            </form></center>
+        </div>
+
+                                <!-- Sign up Form -->
+
+          <div class="Signup" id="Signup">
+            <form action=""><center>
+                <h1>SIGN UP</h1> 
+                <input type="text" placeholder="Enter name"><br>
+                <input type="number" placeholder="Mobile number"><br>
+                <input type="email" placeholder="Enter email"><br>
+                <input type="password" placeholder="New password"><br>
+                <input type="password" placeholder="Confirm password"><br>
+                <button class="Signup-button" onclick="click3()"><a href="Home Page.html">Submit</a></button><br>
+            </form></center>
+        </div>
+
+                                <!-- Sign in & up Option Form -->
+
+        <div class="su" id="su">
+            <center><h1 style="margin-top:90px;">WELCOME</h1>
+            <p>Already having <b>Account</b> click <b>sign in</b> <br>button</p> <br>
+            <button onclick="click1()">Sign in</button> <br> <br>
+            <p>Don't having <b>Account</b> click <b>sign up</b> <br>button</p> <br>
+            <button onclick="click2()">Sign up</button></center>
+        </div> 
+    </div>
+
+                                <!-- Java Script -->
+
+<script>
+    var a=document.getElementById("su")           //san3 animation-name
+    var b=document.getElementById("Signin")      //san2 animation-name
+    var c=document.getElementById("Signup")     //san1 animation-name 
+    
+    function click1(){
+        a.style.animationPlayState="running";
+        b.style.animationPlayState="running";
+        b.style.transform="none";
+        c.style.transform="none";
+    }
+    function click2(){
+        a.style.animationPlayState="running";
+        c.style.animationPlayState="running";
+        c.style.transform="none";
+        b.style.transform="none";
+        a.style.zindex="1";
+        c.style.zIndex="3";
+    }
+</script>
+</body>
+</html>
